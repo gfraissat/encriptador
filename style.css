@@ -1,0 +1,297 @@
+body {
+    font-family: 'Hind Siliguri', Arial;
+    background: #F0F8FF;
+}
+
+header {
+    background: #A4D3EE;
+    height: 5em;
+    background-image: url('../imagens/Vector.png');
+    background-repeat: no-repeat;
+    background-position: 5em;
+    background-size: 3%;
+}
+
+header h1 {
+    font-size: 1em;
+    font-weight: bold;
+    color:#fff;
+}
+
+.cabeca {
+    position: relative;
+    margin: 0 5em;
+    width: 15%;
+ }
+
+.cabeca img {
+    width: 10%;
+}
+
+.cabeca-center{
+    float: right;
+    font-size: 2.5em;
+    margin: .6em 11em 0 0;
+    width: 40%;
+}
+
+.corpo-principal{
+    margin: 0 5em;
+}
+
+.boxtexto{
+	width:40%;
+	height:10em;
+    padding: 1em;
+    background:#F0F8FF;
+	border-radius: 10px;
+    text-align: center;
+    float: left;
+    margin: 8em 0 0 4em;
+}
+
+#texto{
+    width: 100%;
+    height: 100%;
+    background: #F0F8FF;
+    border: 0;
+    resize: none;
+}
+
+textarea {
+    font-size: 2em;
+}
+textarea#result {
+    background-image: url('../imagens/result-vazio.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 90%;
+    font-size: 1.5em;
+}
+
+textarea:focus {
+    box-shadow: 0 0 0 0;
+    border: 0;
+    outline: 0;
+} 
+
+::placeholder {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.boxresult{
+	width:20%;
+	height:25em;
+    padding: 1em;
+	background-color: #fff;
+	border-radius: 10px;
+    text-align: center;
+    float: right;
+    margin: 2em 2em 0 3em;
+    position: relative;
+	}
+
+#result{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 0;
+    resize: none;
+    font-size: 1.2em;
+}
+
+.img-result2 {
+	width:18%;
+	height:15em;
+    padding: 1em;
+	background-color: #fff;
+	border-radius: 10px;
+    text-align: center;
+    float: right;
+    position: relative;
+    margin: 2em -19.5em 0 3em;
+
+}
+
+button {
+    background: #00E5EE;
+    color: #fff;
+    width: 8em;
+    height: 3.5em;
+    font-size: 1em;
+    border-radius: 1em;
+    position: relative;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(117, 112, 112);
+  }
+
+.button-cripto {
+    float: left;
+    width: 60%;
+    margin: 9em 0 0 8em;
+}
+
+.bt-cripitografa {
+    margin: 0 5em 0 1.5em;
+}
+
+.button-copiar {
+    margin: 1.5em 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    color: #6E7B8B;
+    width: 100%;
+    height: 5em;
+    background: #C1CDCD url("../imagens/oneeducation.png") no-repeat center center;
+    box-sizing: border-box;
+   
+    text-align: center;
+    font-size: 0.8em
+  }
+
+.footer {
+    text-align: right;
+    margin: 2em 2em;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        height: 10em;
+        background-size: 5%;
+        background-position: 5% 30%;
+    }
+
+    .cabeca-center {
+        width: 80%;
+        margin: 2.8em 0 0 0;
+    }
+
+    .corpo-principal{
+         margin: 8em 0 0 0;
+    }
+
+
+    textarea {
+        font-size: 1.2em;
+    }
+    
+    .button-cripto {
+        width: 50%;
+        margin: 10em 0 0 3.5em;
+    }
+
+}
+@media (max-width: 425px) /*CELULAR */ {
+    header {
+        height: 8em;
+        background-size: 5%;
+        background-position: 5% 30%;
+    }
+
+    .cabeca-center {
+        font-size: 1.5em;
+        width: 90%;
+        margin: 3.5em 0 0 0;
+    }
+
+    .corpo-principal{
+        margin: 3em 0 0 0;
+   }
+
+    .boxtexto {
+        width: 90%;
+        margin: 0 0 0 0.3em; 
+    }
+
+    .button-cripto {
+        width:90%;
+        position: absolute;
+        text-align: left;
+        padding:  1em 0 0 0;
+        margin: 10em 0 0 1em;
+    }
+
+    .boxresult {
+        padding-top: 2em;
+        width: 88%;
+        height: 150px;
+        margin: 5em 0.5em 0 0;
+    }
+
+    textarea#result {
+        background-position: center; 
+        background-size: 40%;
+        margin-top: 1em;
+    }
+
+    footer{
+        background: #C1CDCD url("../imagens/oneeducation.png") no-repeat center left;
+      }
+    
+    .footer {
+        text-align: right;
+        margin: em 2em;
+    }
+}
+
+@media (max-width: 395px) /*CELULAR */ {
+
+    .cabeca-center {
+        font-size: 1.4em;
+        width: 90%;
+        margin: 3.5em 0 0 0;
+    }
+
+    .boxtexto {
+        margin: 0 0 0 0.2em; 
+    }
+
+    .button-cripto {
+        width:95%;
+        position: absolute;
+        text-align: left;
+        padding:  1em 0 0 0;
+        margin: 12em 0 0 1em;
+    }
+
+    .bt-cripitografa {
+        margin: 0 1em 0 1.5em;
+    }
+    
+    .boxresult {
+        padding-top: 2em;
+        width: 88%;
+        height: 150px;
+        margin: 5em 0.5em 0 0;
+    }
+
+    textarea#result {
+        background-size: 40%;
+        background-position: 50% 100%;
+        margin: 0em 0 0 0.1em;
+    }
+
+    .button-copiar {
+        margin: 1em 0;
+    }
+    
+    footer{
+        background: #C1CDCD url("../imagens/oneeducation.png") no-repeat center left;
+      }
+    
+    .footer {
+        text-align: right;
+        font-size: 0.9em;
+        margin: 2em 0.5em;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE Html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="cabeca">
+        </div>
+        <div class="cabeca-center">
+            <h1>Encriptador / Desencriptador</h1>
+        </div>
+            </header>
+
+    <main>
+        <section class="corpo-principal">
+
+            <div class="boxtexto">
+                <textarea id="texto" placeholder="Digite o texto em minúsculo e sem acentuação"></textarea>
+            </div>
+            <p></p>
+
+            <div class="boxresult">
+                <textarea id="result"  placeholder="Nenhuma mensagem encontrada"></textarea>
+                <div class="button-copiar">
+                    <button onclick="copiarTexto()" id="copiartxt" class="bt-copiar">Copiar</button>
+                </div>
+            </div>
+
+            <div class="button-cripto">
+                <button id="criptografa" class="bt-cripitografa">Criptografar</button>
+                <button id="descriptografa" class="bt-descripitografa">Descriptografar</button>
+            </div>
+
+        </section>
+    </main>
+<footer>
+    <div class="footer">
+        © Created by::: Gerson Fraissat
+    </div>
+</footer>
+</body>
+
+<script src="js/principal.js" ></script>
+</html>
